@@ -910,6 +910,31 @@ section{padding-block:64px 24px}
 </div>
 </div>
 </article>
+<article class="case" data-case style="--sc:#0F6B53">
+<div>
+<span class="kind">AI sales agent</span>
+<h3>Voice Sales Agent</h3>
+<p>Customers would rather send a voice note than type an order. This Telegram agent understands voice notes, text and payment screenshots. It answers questions from the product list, takes orders, confirms payments against open orders, and hands tricky chats to a human, so the store sells around the clock.</p>
+<ol class="steps">
+<li><div><b>Customer sends a voice note, text or receipt</b><small>Telegram, with a typing indicator</small></div></li>
+<li><div><b>Voice notes transcribed, receipts read</b><small>Gemini audio and image analysis</small></div></li>
+<li><div><b>AI agent checks stock and prices</b><small>Gemini, chat memory, calculator, product sheet</small></div></li>
+<li><div><b>Creates the order or confirms payment</b><small>Google Sheets, receipt matched to the open order</small></div></li>
+<li><div><b>Replies, and keeps the owner in the loop</b><small>Escalates to a human, owner updates order status by command</small></div></li>
+</ol>
+</div>
+<div>
+<button class="shot" type="button" data-full="va.webp"><img src="va.webp" alt="n8n workflow: Telegram trigger, route by message type, transcribe voice notes and analyse receipts with Gemini, AI agent with catalogue, order, status and escalation tools, send reply" loading="lazy"><span class="zoom">Expand</span></button><p class="swipe">Swipe to explore the workflow</p>
+<p class="cap">The live workflow: voice, text and receipt paths feeding one AI agent, plus owner commands at the top.</p>
+<div class="out tg" style="background:#0F6B53">
+<span class="lbl">Sample Telegram chat</span>
+<div class="bub me" style="--i:0;color:#0F6B53">🎤 Voice note · 0:06</div>
+<div class="bub" style="--i:1">Got it: 3 rolls of 2.5 mm² cable. That's ₦204,000. Shall I place the order?</div>
+<div class="bub me" style="--i:2;color:#0F6B53">Yes, sending payment now</div>
+<div class="bub" style="--i:3">Payment received for order #1042. The owner has been notified. Thank you!</div>
+</div>
+</div>
+</article>
 </div>
 <div class="mini">
 <div class="minicard" style="background:var(--c-green)"><span class="eyebrow" style="color:#fff;opacity:.8">Paid client project</span><h4>AI Front-Desk Assistant</h4><p>Answers customer enquiries in seconds and follows up on sales leads the next day.</p></div>

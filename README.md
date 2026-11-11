@@ -8,7 +8,7 @@ Personal portfolio of Dim Chukwuebuka Samuel, a Lagos-based web developer, AI au
 
 - `index.html`: the full single-page site (HTML, CSS and JavaScript, no build step)
 - `reel.mp4`, `poster.webp`: 720p motion showreel (one file, shared by every video on the page) and its poster frame
-- `sp.webp`, `lg.webp`: n8n workflow screenshots (StorePulse reporting and lead generation)
+- `sp.webp`, `lg.webp`, `va.webp`: n8n workflow screenshots (StorePulse reporting, lead generation, voice sales agent)
 
 ## Run locally
 
